@@ -1,0 +1,24 @@
+<!doctype html>
+<html> 
+ <head> 
+  <title>Encurtador de links</title> 
+  <link rel="stylesheet" href="style.css"> 
+ </head> 
+ <body> 
+  <h1>Encurtador de links grátis</h1> 
+  <form class="link-form" onsubmit="shortenLink(); return false;"> 
+   <input type="text" id="link" placeholder="Insira o link aqui"> 
+   <input type="submit" value="Encurtar"> 
+  </form> <!-- container para exibir o link encurtado --> 
+  <div class="short-link"></div> <!-- container para exibir mensagem de sucesso ao copiar link --> 
+  <div class="success"></div> <!-- container para o anúncio --> 
+  <div class="ad-container"> <!-- ad code from AdSense --> 
+   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+   <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-YOUR_AD_CLIENT_ID" data-ad-slot="YOUR_AD_SLOT_ID" data-ad-format="auto" data-full-width-responsive="true"></ins> 
+   <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script> 
+   <script src="main.js"></script> 
+  </div>
+ </body>
+</html>
